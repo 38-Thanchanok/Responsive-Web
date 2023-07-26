@@ -1,0 +1,35 @@
+p.name {
+    color: #fff;
+    background-color: #0b0bff;
+    font-size: 46px;
+    padding: 25px;
+}
+p.yourname,p.class,h3  {
+    color: #a75eff;
+    font-family: 'Itim', cursive;
+}
+p,p.yourname,h1 {
+    font-family: 'Itim', cursive;
+}
+@media screen and (max-width:699px) {
+    p.name {
+        background-color: #005a00;
+        font-size: 17px;
+    }
+    p.yourname,p.num,h3,h5 {
+        color: #0b0bff;
+        font-family: 'Anuphan', sans-serif; 
+    }
+    p,p.yourname,h3,h5 {
+        font-family: 'Anuphan', sans-serif; 
+    }
+}
+@media screen and (min-width:780px) and (max-width:999px) {
+    p.name {
+        background-color: #b300c4;
+        font-size: 16px;
+    }
+    p.yourname,p.class,h3,h5 {
+        color: #ff7017;
+    }
+}
